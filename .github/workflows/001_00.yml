@@ -37,7 +37,7 @@ jobs:
           
       - name: "Example install Lighttpd (Qiqi know using Ubuntu?)"
         run: |
-          apt-get install -y --no-install-recomends lighttpd
+          apt-get install -y lighttpd
           cp -r ~/etc/lighttpd /etc/lighttpd
           cp -r ~/www /www
           systemctl start lighttpd
