@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="xx" data-theme="dark">
+<head>
+  <meta charset="utf-8" />
+  <title>Qiqi</title>
+  <link rel="stylesheet" href="/.zhu/lsf.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body>
+  <main class="container">
+    <div data-theme="dark" class="headings">
+      <h1>Selamat Datang // Welcome</h1>
+      <p><cite style="font-family: SDK_SC_Web , serif;">(Nothing) Qiqi Yuanshen's Team</cite>
+      <br/>Suatu visi misi tujuan dan program terkadang menghadapi sistem yang masif</p>
+    </div>
+    <article>
+      <a role="button" style="width:100%">Sabar/Soon</a><br/>
+      <a role="button" style="width:100%" href="ta.baizhu">Tentang/About</a>
+    </article>
+  </main>
+</body>
+</html>

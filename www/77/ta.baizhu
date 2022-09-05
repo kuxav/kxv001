@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="xx" data-theme="dark">
+<head>
+  <meta charset="utf-8" />
+  <title>Qiqi</title>
+  <link rel="stylesheet" href="/.zhu/lsf.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body>
+  <div class="container-fluid">
+  <nav>
+    <ul>
+      <li><strong>--</strong></li>
+    </ul>
+    <ul>
+      <li><a href="/">Home/Brnda</a></li>
+    </ul>
+  </nav>
+  </div>
+  <main>
+  </main>
+</body>
+</html>

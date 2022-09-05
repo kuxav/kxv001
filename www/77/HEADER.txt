@@ -1,0 +1,9 @@
+<!DOCTYPE HTML>
+<html lang="id" data-theme="dark">
+<head>
+<title>Qiqi x Nahida</title>
+<link rel="stylesheet" type="text/css" href="/.zhu/lsf.css">
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+</head>
+<body>
+</div>
