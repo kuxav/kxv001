@@ -1,7 +1,11 @@
-FROM alpine:3.14
+FROM alpine:latest
 
 RUN apk add --no-cache --purge lighttpd
-COPY etc/lighttpd/lighttpd /etc/
-COPY www/ /
+COPY etc/lighttpd/lighttpd/* /etc/lighttpd
+COPY www /
 
-CMD ["lighttpd", "-Df", "/etc/lighttpd/lighttpd.conf"]
+EXPOSE 80
+
+VOLUME ["/www", "/etc/lighttpd"]
+
+CMD ["lighttpd", "-D", "-f", "/etc/lighttpd/lighttpd.conf"]

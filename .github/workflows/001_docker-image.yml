@@ -1,4 +1,4 @@
-name: Docker Image CI - Nahida x Kuxav
+name: Docker Image/Nahida Genshin
 
 on:
   push:
