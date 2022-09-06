@@ -34,10 +34,3 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-          
-      - name: "Example install Lighttpd (Qiqi know using Ubuntu?)"
-        run: |
-          sudo apt-get install -y lighttpd
-          sudo cp -r ~/etc/lighttpd /etc/lighttpd
-          sudo cp -r ~/www /www
-          sudo systemctl start lighttpd
