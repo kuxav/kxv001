@@ -1,7 +1,7 @@
 FROM alpine:latest
 
 RUN apk add --no-cache --purge lighttpd
-COPY etc/lighttpd/lighttpd/* /etc/lighttpd
+COPY etc/lighttpd/lighttpd/* /etc/lighttpd/
 COPY www /
 
 EXPOSE 80
