@@ -10,5 +10,4 @@ EXPOSE 80
 
 VOLUME ["/www", "/.nahida", "/etc/lighttpd"]
 
-# CMD ["lighttpd", "-D", "-f", "/etc/lighttpd/lighttpd.conf"]
-RUN lighttpd -Df /etc/lighttpd/lighttpd.conf
+CMD ["lighttpd", "-D", "-f", "/etc/lighttpd/lighttpd.conf"]
